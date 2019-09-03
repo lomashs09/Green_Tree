@@ -115,6 +115,75 @@
         padding:10px;
     }
 
+    /* climate change */
+
+
+    .climate-change{
+        height: 830px;
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+      }
+      .hunger{
+        display: flex;
+        flex-direction: column;
+        height:350px;
+        justify-content: space-between;
+      }
+      .hunger img{
+       margin-top:30px;
+        width:193px;
+        height:228px;
+      }
+      .did-you-know{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .people{
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+      opacity: 1;
+      width:384px;
+      height:152px;
+      margin-bottom:20px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      }
+      .did-you-know-btn{
+        position: absolute;
+        top:-8%;
+        left:4%;
+        background: #354463 0% 0% no-repeat padding-box;
+        opacity: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 160px;
+        height:30px;
+        text-align: center;
+      font: Regular 14px/17px Helvetica;
+      letter-spacing: 0.56px;
+      color: #FFFFFF;
+      opacity: 1;
+      }
+      
+      .out h1{
+        text-align: left;
+        font: Bold 35px/56px Helvetica;
+        letter-spacing: 0;
+        color: #354463;
+        opacity: 1;
+      }
+      .icons{
+        display: flex;
+        flex-flow:column;
+        justify-content: space-between;
+        height:90px;
+      }
+
 
 }
 @media only screen and (max-width: 500px){
@@ -235,5 +304,100 @@
            
             padding:22px;
         }
+
+        /* climate change */
+
+        .climate-change{
+            height: 1200px;
+            background: url(../assets/assets/home/didyouknow.png) no-repeat center center;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            display: flex;
+            flex-flow: column wrap;
+            padding-top:0%;
+            justify-content: flex-start;
+            align-items: center;
+          }
+          .take-action-btn{
+            background: #C1F7D5 0% 0% no-repeat padding-box;
+            border-radius: 100px;
+            opacity: 1;
+            text-align: center;
+            font: Bold 18px/22px Helvetica;
+            letter-spacing: 0;
+            color: #354463;
+            opacity: 1;
+            width:152px;
+            height:40px;
+          }
+          .hunger{
+            margin-top:20px;
+            display: flex;
+            flex-flow: column wrap;
+            height:400px;
+            justify-content:space-evenly;
+          }
+          .hunger img{
+            padding-right: 35px;
+            width: 312px;
+            height: 192px;
+          }
+          
+          .did-you-know{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+          .did-you-know-btn{
+            position: absolute;
+            top:-14%;
+            left:10%;
+            background: #354463 0% 0% no-repeat padding-box;
+            opacity: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 160px;
+            height:40px;
+            text-align: center;
+            font: Regular 14px/17px Helvetica;
+            letter-spacing: 0.56px;
+            color: #FFFFFF;
+            opacity: 1;
+          }
+          
+          .people{
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+          opacity: 1;
+          width:123%;
+          height:136px;
+          margin:20px;
+          position: relative;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          }
+          
+          
+          .out h1{
+            text-align: left;
+            font: Bold 22px/28px Helvetica;
+            letter-spacing: 0;
+            color: #354463;
+            opacity
+          }
+          .icons{
+            display: flex;
+            flex-flow:column;
+            justify-content: space-between;
+            height:90px;
+          }
+          .out img{
+            width:198px;
+            height:34px;
+          
+          }
     }
 
