@@ -30,6 +30,10 @@
       .action-box{
           width:250px;
       }
+      .take-action-legend{
+          top:-9%;
+          left:36%;
+      }
 
 
 }
@@ -61,5 +65,15 @@
         text-decoration: underline;
         text-align: center;
       }
+      .take-action-legend{
+          left:23%;
+          top:-7%;
+      }
+
+    /* Take action */
+        .action-box{
+            width:150px;
+        }
+    }
 
 }

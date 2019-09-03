@@ -99,3 +99,76 @@ font: Light 16px/24px Helvetica;
 letter-spacing: -0.16px;
 color: #354463;
 }
+
+/* what we do  */
+
+.rectangle{
+  background-color: #354463;
+  width:200px;
+  padding:20px;
+}
+.bold{
+  font: Bold 2.8em/4rem Helvetica;
+  letter-spacing: 0;
+  color: #FFFFFF;
+}
+#what-we-do {
+  background: #354463;
+  height: auto;
+  padding: 100;
+  display: flex;
+  padding: 100 0 100 0;
+  
+}
+
+#what-we-do .issue-box{
+  background:#FFFFFF;
+  color: #354463;
+
+}
+
+#what-we-do .container .bold{
+  font: Bold 2.8em/4rem Helvetica;
+  letter-spacing: 0;
+  color: #FFFFFF;
+}
+
+.portrait-box{
+  background:#FFFFFF;
+  width: 28%;
+  height: auto;
+}
+
+.portrait-box p{
+  width: 80%;
+}
+
+#what-we-do .container strong{
+  font: Bold 2vw/2.5vw Helvetica;
+  letter-spacing: 0;
+  color: #354463;
+ 
+}
+
+#what-we-do .container .portrait-box a{
+  text-decoration: none;
+  color: #354463;
+}
+
+.what-we-do-box{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.what-we-do-box .portrait-box div{
+  position: relative;
+  top:-30;
+  left: 25;
+}
+
+
+#what-we-do img{
+  width: 23vw;
+}
+
