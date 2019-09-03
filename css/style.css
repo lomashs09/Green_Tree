@@ -8,6 +8,7 @@ padding:0;
     margin:auto;
   
   }
+
   img{
     max-width: 100%;
   }
@@ -102,10 +103,14 @@ color: #354463;
 
 /* what we do  */
 
-.rectangle{
-  background-color: #354463;
+.what-we-do-text{
   width:200px;
-  padding:20px;
+  background-color: #FFFFFF;
+  padding:10px;
+  text-align: center;
+font: Regular 14px/17px Helvetica;
+letter-spacing: 0.56px;
+color: #354463;
 }
 .bold{
   font: Bold 2.8em/4rem Helvetica;
@@ -115,10 +120,7 @@ color: #354463;
 #what-we-do {
   background: #354463;
   height: auto;
-  padding: 100;
-  display: flex;
-  padding: 100 0 100 0;
-  
+  padding: 50px 40px 100px 0px;
 }
 
 #what-we-do .issue-box{
@@ -140,35 +142,52 @@ color: #354463;
 }
 
 .portrait-box p{
-  width: 80%;
+  width: 70%;
+  font: Light 16px/24px Helvetica;
+letter-spacing: -0.16px;
+color: #354463;
+  text-align: left;
+  padding:10px;
+  padding-bottom: 30px;
 }
 
 #what-we-do .container strong{
-  font: Bold 2vw/2.5vw Helvetica;
+  font: Bold 2.2vw/2.5vw Helvetica;
   letter-spacing: 0;
   color: #354463;
  
 }
 
-#what-we-do .container .portrait-box a{
-  text-decoration: none;
-  color: #354463;
-}
-
 .what-we-do-box{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 100px;
 }
 
 .what-we-do-box .portrait-box div{
   position: relative;
-  top:-30;
-  left: 25;
+  top:-6%;
+  left: 10%;
 }
 
 
 #what-we-do img{
+
   width: 23vw;
+  height:219px;
 }
+.read-more-btn{
+  text-decoration: none;
+  width:200px;
+  text-align: center;
+  padding:10px;
+  background-color:#C1F7D5;
+  font: Bold 1.5vw/22px Helvetica;
+  letter-spacing: 0;
+  border-radius: 100px;
+  color: #354463;
+  white-space: nowrap;
+  padding: 15px;
+}
+
 
