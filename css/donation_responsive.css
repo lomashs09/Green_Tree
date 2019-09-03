@@ -1,0 +1,194 @@
+@media only screen and (max-width: 910px){
+    .header{
+        height:112px;
+    }
+    .logo{
+        width:154px;
+        height:50px;
+        font: Bold 22px/28px Helvetica;
+    }
+    .information{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        height:1296px;
+    }
+    .payment-info{
+        width:640px;
+        height:1016px;
+        background-color: #354463;
+    }
+    .give-hope-text{
+        align-self: center;
+        width:512px;
+        height:104px;
+        text-align: center;
+        font-size:44px;
+    }
+    footer{
+        position: relative;
+        width: 100%;
+        background-color: #FFFFFF;
+      display: grid;
+      grid-template-columns:2fr 1fr 2fr;
+      grid-template-rows: 1fr 1fr;
+      align-items: center;
+      justify-items: center;
+      }
+      footer .box1 > p{
+      grid-row: 1/2;
+      grid-column: 1;
+      text-align: left;
+      font: Bold 22px/28px Helvetica;
+      letter-spacing: 0;
+      color: #354463;
+      opacity: 1;
+      }
+      footer .box2{
+      grid-column: 2;
+      grid-row: 1;
+      }
+      footer .box3{
+      grid-column: 2;
+      grid-row: 2;
+      display: flex;
+      flex-direction: column;
+      }
+      footer .box4{
+      grid-column: 3;
+      grid-row: 1;
+      display: flex;
+      flex-direction: column;
+      }
+      footer .box5{
+      grid-row: 2;
+      grid-column: 3;
+      }
+      
+
+
+}
+@media only screen and (max-width: 500px){
+    .header{
+        height:80px;
+    }
+    .logo{
+        width:126px;
+        height:40px;
+        font: Bold 18px/28px Helvetica;
+    }
+    .information{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        height:985px;
+    }
+    .payment-info{
+        width:312px;
+        height:816px;
+        background-color: #354463;
+    }
+    .give-hope-text{
+        align-self: center;
+        width:312px;
+        height:79px;
+        text-align: center;
+        font-size:32px;
+    }
+
+    .inside-container p{
+        font-size:11px;
+    }
+    .your-information{
+        text-align: left;
+        font: Bold 18px/22px Helvetica !important;
+        letter-spacing: 0;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    .button{
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+        border-radius: 100px;
+        opacity: 1;
+        color: #354463;
+        opacity: 1;
+        text-align: center;
+        padding: 8px;
+        font: Bold 16px/20px Helvetica !important;
+        width:249px;
+        height: 49px;
+    }
+    .go-back-or-pay{
+        padding-top:10%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+    input {
+        width:90%;
+        margin:1px;
+      border: 0;
+      outline: 0;
+      background: transparent;
+      border-bottom: 2px solid white;
+    }
+    footer {
+        height: 600px;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns:1fr 2fr;
+        grid-template-rows: 1fr 1fr 1fr 2fr;
+        align-items: start;
+        justify-items: start;
+     }
+     footer .box1{
+      grid-row: 2;
+      grid-column: 1;
+     }
+     footer .box1 > p{
+        text-align: left;
+        font: Bold 22px/28px Helvetica;
+        letter-spacing: 0;
+        color: #354463;
+        opacity: 1;
+        position: relative;
+        left: 10%;
+     }
+     footer .box2{
+        grid-column: 2;
+        grid-row: 2;
+        position: relative;
+        left: 10%;
+     }
+     footer .box3{
+        grid-column: 2;
+        grid-row: 3;
+        position: relative;
+        left: 10%;
+        display: flex;
+        flex-direction: column;
+     }
+     footer .box4{
+        grid-column: 1;
+        grid-row: 3;
+        position: relative;
+        left: 10%;
+        display: flex;
+        flex-direction: column;
+     }
+     footer .box5{
+        grid-row: 4;
+        grid-column: 1/2;
+        justify-self: center;
+        position: relative;
+        left: 90%;
+     }
+     .box5 img{
+       width:181px;
+       height:136px;
+    
+     }
+
+}

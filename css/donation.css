@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'flood-std';
+    src: url('https://use.typekit.net/pf/typt/khwz/n4/l?subset_id=1&fvd=n4&ec_token=3bb2a6e53c9684ffdc9a9bf7185b2a6276e0698d66f4110a2ab9340afa69d4d766077cf2280e970caeacca0e54695db78a301448dd3861150fb50e40c80a0eba6808383a5b5031fda18044fa921293d018238cd0ea2f18d9d946965f33abc99a8b3bb0b6f919a1adc58beb401bf1b72b');
+   }
+
+.header{
+    height:120px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.logo{
+    width:200px;
+    height:70px;
+    text-align: center;
+    font: Bold 28px/36px Helvetica;
+    letter-spacing: 0;
+    color: #354463;
+    opacity: 1;
+}
+.information{
+    height:1224px;
+    width:100%;
+    background: url(../assets/assets/home/annie-spratt-42-2x.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.payment-info{
+    width:640px;
+    height:1016px;
+    background-color: #354463;
+}
+.inside-container{
+    padding:10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#first-last-name{
+    display: flex;
+    justify-content: space-between;
+}
+.city-state-zip{
+    display: flex;
+    justify-content: space-between;
+}
+#state-zip{
+    width: 50%;
+    display:flex;
+    justify-content: space-between;
+}
+.expiry-security-code{
+    display: flex;
+    justify-content: space-between;
+}
+#expiry{
+    align-self: flex-start;
+}
+.go-back-or-pay{
+    padding-top:10%;
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    opacity: 1;
+    color: #354463;
+    opacity: 1;
+    text-align: center;
+    padding: 8px;
+    font: Bold 22px/28px Helvetica;
+    width:256px;
+    height: 56px;
+}
+.your-information{
+    padding-top:30px;
+    text-align: left;
+    font: Bold 28px/36px Helvetica;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.inside-container p{
+    text-align: left;
+    font: Regular 14px/17px Helvetica;
+    letter-spacing: 0.56px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.give-hope-text{
+    align-self: flex-start;
+    margin-top:8%;
+    width:384px;
+    height:362px;
+    font-family: flood-std;
+    font-size:72px;
+    text-align: left;
+    color: #FFFFFF;
+    opacity: 1;
+}
+input[type="text"]::placeholder {  
+    text-align: left;
+    font: Light 20px/32px Helvetica;
+     letter-spacing: -0.4px;
+    color: #FFFFFF;
+    opacity: 0.2;
+   
+  } 
+  input {
+      width:90%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid white;
+  }
+  select{
+    color:white;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid white;
+  }
+  footer{
+    height:370px;
+    position: relative;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: grid;
+    grid-template-columns:2fr 1fr 1fr 1fr 2fr;
+    align-items: center;
+    justify-items: center;
+  }
+  footer .box1 > p{
+    text-align: left;
+    font: Bold 22px/28px Helvetica;
+    letter-spacing: 0;
+    color: #354463;
+    opacity: 1;
+  }
+  footer .box3{
+    display: flex;
+    flex-direction: column;
+  }
+  footer .box4{
+    display: flex;
+    flex-direction: column;
+  }
+  .contact{
+  border-bottom: 2px solid  #354463;
+  font-weight: bold;
+  text-align: left;
+  font: Regular 14px/17px Helvetica;
+  letter-spacing: 0.56px;
+  color: #354463;
+  opacity: 1;
+  }
+  footer p{
+    text-align: left;
+  font: Light 14px/20px Helvetica;
+  letter-spacing: -0.14px;
+  color: #354463;
+  opacity: 1;
+  
+  }
+  .box5 img{
+    width:181px;
+    height:136px;
+  
+  }

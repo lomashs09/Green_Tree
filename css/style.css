@@ -1,0 +1,101 @@
+body,html{
+margin:0;
+padding:0;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+  
+  }
+  img{
+    max-width: 100%;
+  }
+#issue-container{
+    background: url(../assets/assets/home/annie-spratt-42-2x.png);
+    background-size: cover;
+}
+.issue-written-container{
+  padding-top:150px;
+  padding-bottom: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.written-content{
+  padding:50px;
+  background-color: #ffffff;
+  width:550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  position: relative;
+
+}
+.the-issue-legend{
+
+  position: absolute;
+  width:150px;
+  padding:10px;
+  top:-4%;
+  left:13%;
+  text-align: center;
+  background-color: #354463;
+  font: Regular 14px/17px Helvetica;
+  letter-spacing: 0.56px;
+  color: #FFFFFF;
+
+}
+#issue-content{
+  text-align: left;
+font: Bold 3.3em/56px Helvetica;
+letter-spacing: 0;
+color: #354463;
+
+}
+#issue-link{
+  float:center;
+  text-decoration: underline;
+
+}
+
+
+/* Take Action */
+
+#take-action-container{
+  margin:0px;
+  background-color: #C1F7D5;
+  position: relative;
+}
+
+.take-action-legend{
+  
+  width:200px;
+  background-color: #354463;
+  padding:1px;
+  text-align: center;
+  position: absolute;;
+  left:42%;
+  top:-17%;
+  color:#ffffff;
+}
+.action{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0 30px 0px;
+  
+}
+.action h2{
+  text-align: left;
+font: Bold 28px/36px Helvetica;
+letter-spacing: 0;
+color: #354463;
+}
+.action p{
+  text-align: left;
+font: Light 16px/24px Helvetica;
+letter-spacing: -0.16px;
+color: #354463;
+}
